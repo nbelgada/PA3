@@ -213,9 +213,6 @@ dict_Json = {"player1":[],"player2":[]}
 for tableau in C[2] :
     dict_Json["player1"].append(stringTolist(tableau))
 for tableau in C[1] :
-    t = stringTolist(tableau)
-    if(t[0][2] == 1 and t[1][2] == 1 and t[1][1] == 1 and t[2][0] == 2 and t[1][0] == 2) :
-        print(tableau)
     dict_Json["player2"].append(stringTolist(tableau))
 
 
